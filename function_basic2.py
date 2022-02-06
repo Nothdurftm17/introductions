@@ -14,12 +14,15 @@ def print_and_return(a,b):
 c = print_and_return(1,2)
 print(c)
 
+#Create a function that accepts a list and returns the sum of the first value in the list plus the list's length.
+
 def first_plus_length(x):
     result = x[0] + len(x)
     return result
 y=first_plus_length([1,2,3,4,5])
 print(y)
 
+#Write a function that accepts a list and creates a new list containing only the values from the original list that are greater than its 2nd value. Print how many values this is and then return the new list. If the list has less than 2 elements, have the function return False
 def values_greater_than_second(x):
     if len(x) < 2:
         return false
